@@ -74,6 +74,30 @@
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
               </button>
+              <strong>Оставьте свои данные, мы вам перезвоним</strong>
+              <form action="">
+                <div>
+                  <label for="name">Имя</label>
+                  <input type="text" name="name" id="name" />
+                  <label for="tel">Телефон</label>
+                  <input type="text" name="tel" id="tel" />
+                  <label for="mail">Почта</label>
+                  <input type="text" name="mail" id="modal-mail" />
+                  <label for="textarea">Комментарий</label>
+                  <input
+                    type="textarea"
+                    name="textarea"
+                    id="textarea"
+                    placeholder="Введите текст"
+                  />
+                </div>
+                <input type="checkbox" />
+                <label for="checkbox"
+                  >Соглашаюсь с рассылкой и принимаю
+                  <a href="#">Условия договора</a>
+                </label>
+                <button>Отправить</button>
+              </form>
             </div>
           </div>
         </div>
@@ -436,6 +460,19 @@
             </li>
           </ul>
         </div>
+        <form action="" class="subscription">
+          <div class="subscription-box">
+            <label for="mail" name="mail" class="subscription-title">Подпишитесь на рассылку</label>
+            <input
+              type="mail"
+              name="mail"
+              id="footer-mail"
+              placeholder="E-mail"
+              class="mail-field"
+            />
+          </div>
+          <button class="subscription-btn" type="submit">Подписаться</button>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
